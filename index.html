@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gráfica online</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Super Paper</h1>
+        <ul>
+            <li><a class="lk" href="index.html">Início</a></li>
+            <li><a class="lk" href="produtos.html">Carrinho</a></li>
+            <li><a class="lk" href="faleconosco.html">Fale Conosco</a></li>
+        </ul>
+    </header>
+    <main>
+        <h4 id="pag">Início</h4>
+        <h1 id="produtos">Produtos</h1><hr>
+        <article id="fileiras">
+            <div id="produto1">
+                <img src="fotos/panfleto.jpg" alt="Foto panfleto">
+                <h4>Panfleto 100x140mm</h4>
+                <h4 class="preço">R$ 120,00</h4>
+                <input type="button" value="Adicionar ao carrinho" onclick="adicionar1()" class="botao">
+            </div>
+            <div id="produto2">
+                <img src="fotos/cartao.jpg" alt="Foto cartão">
+                <h4>Cartão de visitas</h4>
+                <h4 class="preço">R$ 60,00</h4>
+                <input type="button" value="Adicionar ao carrinho" onclick="adicionar2()" class="botao">
+            </div>
+            <div>
+                <img src="fotos/banner.jpg" alt="Foto banner">
+                <h4>Banner 70x120cm</h4>
+                <h4 class="preço">R$ 150,00</h4>
+                <input type="button" value="Adicionar ao carrinho" onclick="adicionar3()" class="botao">
+            </div>
+        </article>
+        <article id="fileiras2">
+            <div>
+                <img src="fotos/tag.jpg" alt="foto tags">
+                <h4>tags</h4>
+                <h4 class="preço">R$ 20,00</h4>
+                <input type="button" value="Adicionar ao carrinho" onclick="adicionar4()" class="botao">
+            </div>
+            <div>
+                <img src="fotos/caneca.jpg" alt="Foto caneca">
+                <h4>Canecas</h4>
+                <h4 class="preço">R$ 60,00</h4>
+                <input type="button" value="Adicionar ao carrinho" onclick="adicionar5()" class="botao">
+            </div>
+            <div>
+                <img src="fotos/adesivo.jpg" alt="Foto adesivo">
+                <h4>Adesivos</h4>
+                <h4 class="preço">R$ 45,00</h4>
+                <input type="button" value="Adicionar ao carrinho" onclick="adicionar6()" class="botao">
+            </div>
+        </article>
+        <hr>
+        
+    </main>
+
+    
+    <footer>
+        <p>Este site foi desenvolvido por Victor Ian Silva</p>
+        &copy;Kbldesigner2022 <br>
+        <a href="https://www.facebook.com/profile.php?id=100004631891386" target="_blank">Facebook</a> | <a href="https://www.instagram.com/kbldesigner/" target="_blank">Instagram</a>
+    </footer>
+    <script src="codigos.js"></script>
+</body>
+</html>
